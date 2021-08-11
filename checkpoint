@@ -1,0 +1,2 @@
+model_checkpoint_path: "modified_lenet"
+all_model_checkpoint_paths: "modified_lenet"
