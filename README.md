@@ -5,9 +5,9 @@
 
 ## Overview
 
-The goal of this project is to build a prediction model that classifies [German Traffic Sign](https://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). This LeNet-5 based model reached a test accuracy of 0.934.
+The goal of this project is to build a prediction model that classifies German traffic signs. This LeNet-5 based model reached a test accuracy of `93.4%`.
 
-This model can decode traffic signs from natural images by using the German Traffic Sign Dataset. At the very last, I've tested my model program on new images of traffic signs found on the web.
+This model can decode traffic signs from natural images by using the [German Traffic Sign Dataset](https://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). At the very end, I've tested my model program on new images of traffic signs found on the web.
 
 ---
 
