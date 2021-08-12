@@ -59,9 +59,13 @@ Each channel of image were normalized to values between -1 and 1, centered at 0.
 
 ### 2. Model Architecture
 
+<img src="./doc/network_diagram.png" height="200px">
+
 The model was modified a bit. I added a convolution layer and a dense layer each and enlarged the height of feature map for convolution layers. The traffic sign has more complex shape and features than MNIST data.
 
 The LeNet is simple and efficient, but I supposed that it will perform better with larger and deeper network as the data is more complex and contains more data(like color). Moreover, I attached 4 drops layers and removed pooling and initialized the model weights with **He** initialization.
+
+<img src="./doc/he_init.png" height="50px">
 
 - More convolution and dense layers
 - Increased feature map depth for convolution layers
@@ -130,7 +134,7 @@ Here are five German traffic signs that I found on the web:
 The second image might be difficult to classify as it's seen from below and the portrait is blurred a bit.
 
 ### 2. Model's Prediction on New Images
-Accuracy on web image is 83.3%. It's lower than the test accuracy, but we need more samples to compare these correctly.
+Accuracy on web image is `83.3%`. It's lower than the test accuracy, but we need more samples to compare these correctly.
 
 Here are the results of the prediction:
 <img src="./doc/web_prediction.png" height="110px">
