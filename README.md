@@ -1,17 +1,13 @@
-# **Traffic Sign Recognition** 
+# Traffic Sign Classifier
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 
-**Build a Traffic Sign Recognition Project**
+## Overview
 
-The goals / steps of this project are the following:
-* Load the data set (see below for links to the project data set)
-* Explore, summarize and visualize the data set
-* Design, train and test a model architecture
-* Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
+The goal of this project is to build a prediction model that classifies [German Traffic Sign](https://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). This LeNet-5 based model reached a test accuracy of 0.934.
+
+This model can decode traffic signs from natural images by using the German Traffic Sign Dataset. At the very last, I've tested my model program on new images of traffic signs found on the web.
 
 ---
 
