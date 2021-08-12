@@ -105,7 +105,7 @@ At the first time of training, with fresh LeNet, the validation accuracy was aro
 
 The batch size affected the accuracy significantly. With large batch(>200) the accuracy descreased drastically. Possible hypothesis is that it performs less gradient descents per epoch with large batch size. My optimal value was `128`
 
-Learning rate was best around `0.0001`. The accuracy dropped near `0.00001` and `0.001`. After repeated training, the optimal value was `0.00095`. The accuracy difference between `0.0001` ~ `0.000095` was less than `1%`.
+Learning rate was best around `0.001`. The accuracy dropped near `0.0001` and `0.01`. After repeated training, the optimal value was `0.00095`. The accuracy difference between `0.001` ~ `0.0007` was less than `1%`.
 
 Epochs after 10 were only slight changes on accuracy, but still, there surely was very small increase of accuracy. The accuracy kept oscillating because of dropout.
 
