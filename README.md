@@ -101,7 +101,7 @@ Hyperparameters that I considered were:
 The optimizer used on this training is Adam. Adam performed generally better than SGD by rule of thumb.
 
 ### 4. Approach on Training
-At the first time of training, with fresh LeNet, the validation accuracy was around `77%` ~ `83%`. Then I augumented by training set and modified LeNet a little larger, and reached around 87%. Then I started hundreds of experiments.
+At the first time of training, with fresh LeNet, the validation accuracy was around `77%` ~ `83%`. Then I augumented my training set and modified LeNet a little larger, and reached around 87%. Then I started hundreds of experiments.
 
 The batch size affected the accuracy significantly. With large batch(>200) the accuracy descreased drastically. Possible hypothesis is that it performs less gradient descents per epoch with large batch size. My optimal value was `128`
 
